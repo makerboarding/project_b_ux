@@ -10,11 +10,6 @@
 
 # production
 /build
-/dist
-/public
-/playground/public
-/playground/node_modules
-/playground/src/component-lib
 
 # misc
 .DS_Store
