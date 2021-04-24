@@ -1,7 +1,7 @@
 {
-  "name": "project-b-ux",
+  "name": "@makerboarding/project-b-ux",
   "description": "project_b shared UX components",
-  "version": "0.19.0",
+  "version": "0.20.0",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "typings": "dist/index.d.ts",
