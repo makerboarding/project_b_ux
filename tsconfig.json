@@ -1,14 +1,13 @@
 {
   "compilerOptions": {
     "target": "es2015",
-    "module": "commonjs",
+    "module": "esnext",
     "strict": true,
     "declaration": true,
-    "declarationDir": "./dist",
     "esModuleInterop": true,
     "skipLibCheck": true,
     "jsx": "react",
-    "outDir": "./dist",
+    "outDir": "dist",
     "moduleResolution": "node",
     "forceConsistentCasingInFileNames": true
   },
