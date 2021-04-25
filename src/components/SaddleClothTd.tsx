@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export interface SaddleClothTdProps {
-  number: number;
+  programNumber: number;
   id?: string;
   width?: string;
   borderSize?: number;
@@ -102,6 +102,7 @@ const handleSaddleForeground = (saddleNumber: number) => {
     case 21:
       return 'navy';
     default:
+      console.log (`default saddle foreground ${saddleNumber}`)
       return 'white';
   }
 };
@@ -111,8 +112,8 @@ export const SaddleClothTd = styled('td')`
   font-weight: bold;
   max-height: 40px;
   color: green;
-  color: ${(p: SaddleClothTdProps) => handleSaddleForeground(p.number)};
-  background-color: ${(p: SaddleClothTdProps) => handleSaddleBackground(p.number)};
+  color: ${(p: SaddleClothTdProps) => handleSaddleForeground(p.programNumber)};
+  background-color: ${(p: SaddleClothTdProps) => handleSaddleBackground(p.programNumber)};
   padding: 0.2rem;
   // font-size: 10pt;
   width: ${(p: SaddleClothTdProps) => (p.width ? p.width : 10)};
