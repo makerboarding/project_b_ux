@@ -1,5 +1,5 @@
 export interface SaddleClothTdProps {
-    number: number;
+    programNumber: number;
     id?: string;
     width?: string;
     borderSize?: number;

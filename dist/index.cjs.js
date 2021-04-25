@@ -9,6 +9,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var styled__default = /*#__PURE__*/_interopDefaultLegacy(styled);
 
 const handleSaddleBackground = (saddleNumber) => {
+    console.log(`saddle background: ${saddleNumber}`);
     switch (saddleNumber) {
         case 1:
             return 'red';
@@ -53,6 +54,7 @@ const handleSaddleBackground = (saddleNumber) => {
         case 21:
             return '#b19cd9';
         default:
+            console.log(`default saddle foreground ${saddleNumber}`);
             return 'black';
     }
 };
@@ -101,6 +103,7 @@ const handleSaddleForeground = (saddleNumber) => {
         case 21:
             return 'navy';
         default:
+            console.log(`default saddle background ${saddleNumber}`);
             return 'white';
     }
 };
@@ -109,8 +112,8 @@ const SaddleClothTd = styled__default['default']('td') `
   font-weight: bold;
   max-height: 40px;
   color: green;
-  color: ${(p) => handleSaddleForeground(p.number)};
-  background-color: ${(p) => handleSaddleBackground(p.number)};
+  color: ${(p) => handleSaddleForeground(p.programNumber)};
+  background-color: ${(p) => handleSaddleBackground(p.programNumber)};
   padding: 0.2rem;
   // font-size: 10pt;
   width: ${(p) => (p.width ? p.width : 10)};
