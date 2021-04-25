@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 const handleSaddleBackground = (saddleNumber) => {
-    console.log(`saddle background: ${saddleNumber}`);
     switch (Math.round(saddleNumber)) {
         case 1:
             return 'red';
@@ -46,13 +45,12 @@ const handleSaddleBackground = (saddleNumber) => {
         case 21:
             return '#b19cd9';
         default:
-            console.log(`default saddle bacground ${saddleNumber}`);
-            console.log(saddleNumber);
+            console.log(`default saddle background ${saddleNumber}`);
             return 'black';
     }
 };
 const handleSaddleForeground = (saddleNumber) => {
-    switch (saddleNumber) {
+    switch (Math.round(saddleNumber)) {
         case 1:
             return 'white';
         case 2:

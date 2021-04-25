@@ -9,7 +9,6 @@ export interface SaddleClothTdProps {
 }
 
 const handleSaddleBackground = (saddleNumber: number) => {
-  console.log(`saddle background: ${saddleNumber}`)
   switch (Math.round(saddleNumber)) {
     case 1:
       return 'red';
@@ -54,14 +53,13 @@ const handleSaddleBackground = (saddleNumber: number) => {
     case 21:
       return '#b19cd9';
     default:
-      console.log (`default saddle bacground ${saddleNumber}`)
-      console.log (saddleNumber)
+      console.log (`default saddle background ${saddleNumber}`)
       return 'black';
   }
 };
 
 const handleSaddleForeground = (saddleNumber: number) => {
-  switch (saddleNumber) {
+  switch (Math.round(saddleNumber)) {
     case 1:
       return 'white';
     case 2:
