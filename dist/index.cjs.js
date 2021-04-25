@@ -10,7 +10,7 @@ var styled__default = /*#__PURE__*/_interopDefaultLegacy(styled);
 
 const handleSaddleBackground = (saddleNumber) => {
     console.log(`saddle background: ${saddleNumber}`);
-    switch (saddleNumber) {
+    switch (Math.round(saddleNumber)) {
         case 1:
             return 'red';
         case 2:
@@ -54,7 +54,8 @@ const handleSaddleBackground = (saddleNumber) => {
         case 21:
             return '#b19cd9';
         default:
-            console.log(`default saddle foreground ${saddleNumber}`);
+            console.log(`default saddle bacground ${saddleNumber}`);
+            console.log(saddleNumber);
             return 'black';
     }
 };
@@ -103,7 +104,7 @@ const handleSaddleForeground = (saddleNumber) => {
         case 21:
             return 'navy';
         default:
-            console.log(`default saddle background ${saddleNumber}`);
+            console.log(`default saddle foreground ${saddleNumber}`);
             return 'white';
     }
 };
