@@ -10,6 +10,7 @@
 
 # production
 /build
+/dist_pre
 /public
 /playground/public
 /playground/node_modules
