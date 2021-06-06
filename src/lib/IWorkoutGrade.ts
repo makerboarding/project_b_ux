@@ -1,7 +1,7 @@
 // import { IWorkoutGrade } from './IWorkoutGrade';
 // project b grades - a number
-export interface IWorkoutGradeLevel {
+export interface IWorkoutGrade {
   distanceFeet: number;
-  time: number;
+  fps: number;
   grade: number;
 }
