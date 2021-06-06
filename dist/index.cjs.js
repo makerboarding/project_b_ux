@@ -122,190 +122,200 @@ const SaddleClothTd = styled__default['default']('td') `
 
 const GradeData = { grades: [
         {
-            "distanceFurlong": 1,
-            "distanceFeet": 660,
-            "speed": 55,
-            "grade": 60
-        },
-        {
-            "distanceFurlong": 1,
-            "distanceFeet": 660,
-            "speed": 56,
-            "grade": 70
-        },
-        {
-            "distanceFurlong": 1,
-            "distanceFeet": 660,
-            "speed": 57,
-            "grade": 80
-        },
-        {
-            "distanceFurlong": 1,
-            "distanceFeet": 660,
-            "speed": 58,
-            "grade": 90
-        },
-        {
-            "distanceFurlong": 1,
-            "distanceFeet": 660,
-            "speed": 59,
-            "grade": 100
-        },
-        {
-            "distanceFurlong": 2,
-            "distanceFeet": 1320,
-            "speed": 54.5,
-            "grade": 60
-        },
-        {
-            "distanceFurlong": 2,
-            "distanceFeet": 1320,
-            "speed": 55.5,
-            "grade": 70
-        },
-        {
-            "distanceFurlong": 2,
-            "distanceFeet": 1320,
-            "speed": 56.5,
-            "grade": 80
-        },
-        {
-            "distanceFurlong": 2,
-            "distanceFeet": 1320,
-            "speed": 57.5,
-            "grade": 90
-        },
-        {
-            "distanceFurlong": 2,
-            "distanceFeet": 1320,
-            "speed": 58.5,
-            "grade": 100
-        },
-        {
-            "distanceFurlong": 3,
-            "distanceFeet": 1980,
-            "speed": 53.5,
-            "grade": 60
-        },
-        {
-            "distanceFurlong": 3,
-            "distanceFeet": 1980,
-            "speed": 54.5,
-            "grade": 70
-        },
-        {
-            "distanceFurlong": 3,
-            "distanceFeet": 1980,
-            "speed": 55.5,
-            "grade": 80
-        },
-        {
-            "distanceFurlong": 3,
-            "distanceFeet": 1980,
-            "speed": 56.5,
-            "grade": 90
-        },
-        {
-            "distanceFurlong": 3,
-            "distanceFeet": 1980,
-            "speed": 57.5,
-            "grade": 100
-        },
-        {
-            "distanceFurlong": 4,
-            "distanceFeet": 2640,
-            "speed": 53.2,
-            "grade": 60
-        },
-        {
-            "distanceFurlong": 4,
-            "distanceFeet": 2640,
-            "speed": 54.2,
-            "grade": 70
-        },
-        {
-            "distanceFurlong": 4,
-            "distanceFeet": 2640,
-            "speed": 55.2,
-            "grade": 80
-        },
-        {
-            "distanceFurlong": 4,
-            "distanceFeet": 2640,
-            "speed": 56.2,
-            "grade": 90
-        },
-        {
-            "distanceFurlong": 4,
-            "distanceFeet": 2640,
-            "speed": 57.2,
-            "grade": 100
-        },
-        {
-            "distanceFurlong": 5,
-            "distanceFeet": 3300,
-            "speed": 53,
-            "grade": 60
-        },
-        {
-            "distanceFurlong": 5,
-            "distanceFeet": 3300,
-            "speed": 54,
-            "grade": 70
-        },
-        {
-            "distanceFurlong": 5,
-            "distanceFeet": 3300,
-            "speed": 55,
-            "grade": 80
-        },
-        {
-            "distanceFurlong": 5,
-            "distanceFeet": 3300,
-            "speed": 56,
-            "grade": 90
-        },
-        {
-            "distanceFurlong": 5,
-            "distanceFeet": 3300,
-            "speed": 57,
-            "grade": 100
+            "distanceFurlong": 6,
+            "distanceFeet": 3960,
+            "fps": 56.8,
+            "grade": 6
         },
         {
             "distanceFurlong": 6,
             "distanceFeet": 3960,
-            "speed": 52.8,
-            "grade": 60
+            "fps": 55.8,
+            "grade": 5
         },
         {
             "distanceFurlong": 6,
             "distanceFeet": 3960,
-            "speed": 53.8,
-            "grade": 70
+            "fps": 54.8,
+            "grade": 4
         },
         {
             "distanceFurlong": 6,
             "distanceFeet": 3960,
-            "speed": 54.8,
-            "grade": 80
+            "fps": 53.8,
+            "grade": 3
         },
         {
             "distanceFurlong": 6,
             "distanceFeet": 3960,
-            "speed": 55.8,
-            "grade": 90
+            "fps": 52.8,
+            "grade": 2
         },
         {
-            "distanceFurlong": 6,
-            "distanceFeet": 3960,
-            "speed": 56.8,
-            "grade": 100
+            "distanceFurlong": 5,
+            "distanceFeet": 3300,
+            "fps": 57,
+            "grade": 6
+        },
+        {
+            "distanceFurlong": 5,
+            "distanceFeet": 3300,
+            "fps": 56,
+            "grade": 5
+        },
+        {
+            "distanceFurlong": 5,
+            "distanceFeet": 3300,
+            "fps": 55,
+            "grade": 4
+        },
+        {
+            "distanceFurlong": 5,
+            "distanceFeet": 3300,
+            "fps": 54,
+            "grade": 3
+        },
+        {
+            "distanceFurlong": 5,
+            "distanceFeet": 3300,
+            "fps": 53,
+            "grade": 2
+        },
+        {
+            "distanceFurlong": 4,
+            "distanceFeet": 2640,
+            "fps": 57.2,
+            "grade": 6
+        },
+        {
+            "distanceFurlong": 4,
+            "distanceFeet": 2640,
+            "fps": 56.2,
+            "grade": 5
+        },
+        {
+            "distanceFurlong": 4,
+            "distanceFeet": 2640,
+            "fps": 55.2,
+            "grade": 4
+        },
+        {
+            "distanceFurlong": 4,
+            "distanceFeet": 2640,
+            "fps": 54.2,
+            "grade": 3
+        },
+        {
+            "distanceFurlong": 4,
+            "distanceFeet": 2640,
+            "fps": 53.2,
+            "grade": 2
+        },
+        {
+            "distanceFurlong": 3,
+            "distanceFeet": 1980,
+            "fps": 57.5,
+            "grade": 6
+        },
+        {
+            "distanceFurlong": 3,
+            "distanceFeet": 1980,
+            "fps": 56.5,
+            "grade": 5
+        },
+        {
+            "distanceFurlong": 3,
+            "distanceFeet": 1980,
+            "fps": 55.5,
+            "grade": 4
+        },
+        {
+            "distanceFurlong": 3,
+            "distanceFeet": 1980,
+            "fps": 54.5,
+            "grade": 3
+        },
+        {
+            "distanceFurlong": 3,
+            "distanceFeet": 1980,
+            "fps": 53.5,
+            "grade": 2
+        },
+        {
+            "distanceFurlong": 2,
+            "distanceFeet": 1320,
+            "fps": 58.5,
+            "grade": 6
+        },
+        {
+            "distanceFurlong": 2,
+            "distanceFeet": 1320,
+            "fps": 57.5,
+            "grade": 5
+        },
+        {
+            "distanceFurlong": 2,
+            "distanceFeet": 1320,
+            "fps": 56.5,
+            "grade": 4
+        },
+        {
+            "distanceFurlong": 2,
+            "distanceFeet": 1320,
+            "fps": 55.5,
+            "grade": 3
+        },
+        {
+            "distanceFurlong": 2,
+            "distanceFeet": 1320,
+            "fps": 54.5,
+            "grade": 2
+        },
+        {
+            "distanceFurlong": 1,
+            "distanceFeet": 660,
+            "fps": 59,
+            "grade": 6
+        },
+        {
+            "distanceFurlong": 1,
+            "distanceFeet": 660,
+            "fps": 58,
+            "grade": 5
+        },
+        {
+            "distanceFurlong": 1,
+            "distanceFeet": 660,
+            "fps": 57,
+            "grade": 4
+        },
+        {
+            "distanceFurlong": 1,
+            "distanceFeet": 660,
+            "fps": 56,
+            "grade": 3
+        },
+        {
+            "distanceFurlong": 1,
+            "distanceFeet": 660,
+            "fps": 55,
+            "grade": 2
         }
     ] };
 
-const gradeForWorkout = () => {
-    console.log(GradeData);
-    return 'foobar';
+const gradeForWorkout = (fps, distanceFeet) => {
+    const distanceGrades = GradeData.grades.filter((grade) => {
+        return grade.distanceFeet == distanceFeet;
+    });
+    if (distanceGrades) {
+        // grades are sorted in decsending order
+        const grade = distanceGrades.find((grade) => {
+            return grade.fps < fps;
+        });
+        if (grade)
+            return `${grade.grade}`;
+    }
+    return '0';
 };
 
 exports.GradeData = GradeData;
