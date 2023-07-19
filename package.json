@@ -8,6 +8,10 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/makerboarding/project_b_ux.git"
+  },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
