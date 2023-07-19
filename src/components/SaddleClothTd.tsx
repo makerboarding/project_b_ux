@@ -61,50 +61,50 @@ const handleSaddleBackground = (saddleNumber: number) => {
 const handleSaddleForeground = (saddleNumber: number) => {
   switch (Math.round(saddleNumber)) {
     case 1:
-      return 'white';
+      return 'white !important';
     case 2:
-      return 'black';
+      return 'black !important';
     case 3:
-      return 'white';
+      return 'white !important';
     case 4:
-      return 'black';
+      return 'black !important';
     case 5:
-      return 'white';
+      return 'white !important';
     case 6:
-      return 'gold';
+      return 'gold !important';
     case 7:
-      return 'black';
+      return 'black !important';
     case 8:
-      return 'black';
+      return 'black !important';
     case 9:
-      return 'black';
+      return 'black !important';
     case 10:
-      return 'white';
+      return 'white !important';
     case 11:
-      return 'red';
+      return 'red !important';
     case 12:
-      return 'black';
+      return 'black !important';
     case 13:
-      return 'white';
+      return 'white !important';
     case 14:
-      return 'yellow';
+      return 'yellow !important';
     case 15:
-      return 'black';
+      return 'black !important';
     case 16:
-      return 'red';
+      return 'red !important';
     case 17:
-      return 'white';
+      return 'white !important';
     case 18:
-      return 'yellow';
+      return 'yellow !important';
     case 19:
-      return 'red';
+      return 'red !important';
     case 20:
-      return 'yellow';
+      return 'yellow !important';
     case 21:
-      return 'navy';
+      return 'navy !important';
     default:
       console.log (`default saddle foreground ${saddleNumber}`)
-      return 'white';
+      return 'white !important';
   }
 };
 

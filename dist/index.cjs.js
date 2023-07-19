@@ -11,99 +11,99 @@ var styled__default = /*#__PURE__*/_interopDefaultLegacy(styled);
 const handleSaddleBackground = (saddleNumber) => {
     switch (Math.round(saddleNumber)) {
         case 1:
-            return 'red';
+            return 'red !important';
         case 2:
-            return 'white';
+            return 'white !important';
         case 3:
-            return 'blue';
+            return 'blue !important';
         case 4:
-            return 'yellow';
+            return 'yellow !important';
         case 5:
-            return 'green';
+            return 'green !important';
         case 6:
-            return 'black';
+            return 'black !important';
         case 7:
-            return 'orange';
+            return 'orange !important';
         case 8:
-            return 'pink';
+            return 'pink !important';
         case 9:
-            return 'turquoise';
+            return 'turquoise !important';
         case 10:
-            return 'purple';
+            return 'purple !important';
         case 11:
-            return 'lightgrey';
+            return 'lightgrey !important';
         case 12:
-            return 'lime';
+            return 'lime !important';
         case 13:
-            return 'brown';
+            return 'brown !important';
         case 14:
-            return 'maroon';
+            return 'maroon !important';
         case 15:
-            return 'khaki';
+            return 'khaki !important';
         case 16:
-            return '#516b84';
+            return '#516b84 !important';
         case 17:
-            return 'navy';
+            return 'navy !important';
         case 18:
-            return 'forestgreen';
+            return 'forestgreen !important';
         case 19:
-            return 'mediumblue';
+            return 'mediumblue !important';
         case 20:
-            return 'fuchsia';
+            return 'fuchsia !important';
         case 21:
-            return '#b19cd9';
+            return '#b19cd9 !important';
         default:
             console.log(`default saddle background ${saddleNumber}`);
-            return 'black';
+            return 'black !important';
     }
 };
 const handleSaddleForeground = (saddleNumber) => {
     switch (Math.round(saddleNumber)) {
         case 1:
-            return 'white';
+            return 'white !important';
         case 2:
-            return 'black';
+            return 'black !important';
         case 3:
-            return 'white';
+            return 'white !important';
         case 4:
-            return 'black';
+            return 'black !important';
         case 5:
-            return 'white';
+            return 'white !important';
         case 6:
-            return 'gold';
+            return 'gold !important';
         case 7:
-            return 'black';
+            return 'black !important';
         case 8:
-            return 'black';
+            return 'black !important';
         case 9:
-            return 'black';
+            return 'black !important';
         case 10:
-            return 'white';
+            return 'white !important';
         case 11:
-            return 'red';
+            return 'red !important';
         case 12:
-            return 'black';
+            return 'black !important';
         case 13:
-            return 'white';
+            return 'white !important';
         case 14:
-            return 'yellow';
+            return 'yellow !important';
         case 15:
-            return 'black';
+            return 'black !important';
         case 16:
-            return 'red';
+            return 'red !important';
         case 17:
-            return 'white';
+            return 'white !important';
         case 18:
-            return 'yellow';
+            return 'yellow !important';
         case 19:
-            return 'red';
+            return 'red !important';
         case 20:
-            return 'yellow';
+            return 'yellow !important';
         case 21:
-            return 'navy';
+            return 'navy !important';
         default:
             console.log(`default saddle foreground ${saddleNumber}`);
-            return 'white';
+            return 'white !important';
     }
 };
 const SaddleClothTd = styled__default['default']('td') `
