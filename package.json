@@ -1,7 +1,7 @@
 {
   "name": "@makerboarding/project_b_ux",
   "description": "project_b shared UX components",
-  "version": "0.35.0",
+  "version": "0.35.1",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "typings": "dist/index.d.ts",
@@ -43,9 +43,9 @@
     "build-watch": "rollup -c -w"
   },
   "peerDependencies": {
-    "react": "^17.0.3",
-    "react-dom": "^17.0.3",
-    "styled-components": "^5.2.3"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "styled-components": "^6.0.4"
   },
   "dependencies": {}
 }
