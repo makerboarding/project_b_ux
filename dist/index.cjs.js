@@ -1,12 +1,6 @@
 'use strict';
 
-Object.defineProperty(exports, '__esModule', { value: true });
-
 var styled = require('styled-components');
-
-function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'default' in e ? e : { 'default': e }; }
-
-var styled__default = /*#__PURE__*/_interopDefaultLegacy(styled);
 
 const handleSaddleBackground = (saddleNumber) => {
     switch (Math.round(saddleNumber)) {
@@ -106,7 +100,9 @@ const handleSaddleForeground = (saddleNumber) => {
             return 'white !important';
     }
 };
-const SaddleClothTd = styled__default['default']('td') `
+const SaddleClothTd = styled('td').withConfig({
+    shouldForwardProp: (prop) => !['borderSize', 'programNumber'].includes(prop),
+}) `
   text-align: center;
   font-weight: bold;
   max-height: 40px;

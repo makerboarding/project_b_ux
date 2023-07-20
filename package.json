@@ -1,7 +1,7 @@
 {
   "name": "@makerboarding/project_b_ux",
   "description": "project_b shared UX components",
-  "version": "0.34.2",
+  "version": "0.35.0",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "typings": "dist/index.d.ts",
@@ -19,19 +19,20 @@
     "dist"
   ],
   "devDependencies": {
-    "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^11.1.0",
-    "@testing-library/user-event": "^12.1.10",
-    "@types/jest": "^26.0.15",
-    "@types/node": "^12.0.0",
-    "@types/styled-components": "^5.1.9",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^14.0.0",
+    "@testing-library/user-event": "^14.4.3",
+    "@types/jest": "^29.5.3",
+    "@types/node": "^20.4.2",
+    "@types/styled-components": "^5.1.26",
     "npm-run-all": "^4.1.5",
-    "react-scripts": "^4.0.3",
-    "rollup": "^2.45.2",
+    "react-scripts": "^5.0.1",
+    "rollup": "^3.26.3",
     "rollup-plugin-delete": "^2.0.0",
-    "rollup-plugin-typescript2": "^0.30.0",
-    "typescript": "^4.2.4",
-    "xlsx": "^0.17.0"
+    "rollup-plugin-typescript2": "^0.35.0",
+    "tslib": "^2.6.0",
+    "typescript": "^5.1.6",
+    "xlsx": "^0.18.5"
   },
   "scripts": {
     "start": "react-scripts start",

@@ -108,7 +108,10 @@ const handleSaddleForeground = (saddleNumber: number) => {
   }
 };
 
-export const SaddleClothTd = styled('td')`
+export const SaddleClothTd = styled('td').withConfig({
+  shouldForwardProp: (prop) =>
+    !['borderSize', 'programNumber'].includes(prop),
+})<SaddleClothTdProps>`
   text-align: center;
   font-weight: bold;
   max-height: 40px;

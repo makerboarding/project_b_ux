@@ -1,16 +1,15 @@
-import typescript from 'rollup-plugin-typescript2';
-import pkg from './package.json';
-import del from 'rollup-plugin-delete';
+const typescript = require('rollup-plugin-typescript2');
+const del = require('rollup-plugin-delete');
+const pkg = require('./package.json');
 
-export default [
+module.exports = [
   {
     input: 'src/index.ts',
     output: [
       { file: pkg.main, format: 'cjs' },
-      { file: pkg.module, format: 'esm' },
     ],
-    plugins: [
-      del({ targets: ['dist/*', 'playground/src/component-lib'] }),
+    plugins:  [
+      del({ targets: ['dist/*'] }),
       typescript(),
     ],
     external: Object.keys(pkg.peerDependencies || {}),
