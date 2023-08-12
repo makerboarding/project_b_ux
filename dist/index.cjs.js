@@ -101,14 +101,14 @@ const handleSaddleForeground = (saddleNumber) => {
     }
 };
 const SaddleClothTd = styled('td').withConfig({
-    shouldForwardProp: (prop) => !['borderSize', 'programNumber'].includes(prop),
+    shouldForwardProp: (prop) => !['bordersize', 'programnumber'].includes(prop),
 }) `
   text-align: center;
   font-weight: bold;
   max-height: 40px;
   color: green;
-  color: ${(p) => handleSaddleForeground(p.programNumber)};
-  background-color: ${(p) => handleSaddleBackground(p.programNumber)};
+  color: ${(p) => handleSaddleForeground(p.programnumber)};
+  background-color: ${(p) => handleSaddleBackground(p.programnumber)};
   padding: 0.2rem;
   // font-size: 10pt;
   width: ${(p) => (p.width ? p.width : 10)};

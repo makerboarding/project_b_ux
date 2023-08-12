@@ -1,10 +1,10 @@
 import styled from 'styled-components';
 
 export interface SaddleClothTdProps {
-  programNumber: number;
+  programnumber: number;
   id?: string;
   width?: string;
-  borderSize?: number;
+  bordersize?: number;
   ref?: any;
 }
 
@@ -110,14 +110,14 @@ const handleSaddleForeground = (saddleNumber: number) => {
 
 export const SaddleClothTd = styled('td').withConfig({
   shouldForwardProp: (prop) =>
-    !['borderSize', 'programNumber'].includes(prop),
+    !['bordersize', 'programnumber'].includes(prop),
 })<SaddleClothTdProps>`
   text-align: center;
   font-weight: bold;
   max-height: 40px;
   color: green;
-  color: ${(p: SaddleClothTdProps) => handleSaddleForeground(p.programNumber)};
-  background-color: ${(p: SaddleClothTdProps) => handleSaddleBackground(p.programNumber)};
+  color: ${(p: SaddleClothTdProps) => handleSaddleForeground(p.programnumber)};
+  background-color: ${(p: SaddleClothTdProps) => handleSaddleBackground(p.programnumber)};
   padding: 0.2rem;
   // font-size: 10pt;
   width: ${(p: SaddleClothTdProps) => (p.width ? p.width : 10)};
