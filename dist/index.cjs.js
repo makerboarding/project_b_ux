@@ -1,6 +1,6 @@
 'use strict';
 
-var styled = require('styled-components');
+var styledComponents = require('styled-components');
 
 const handleSaddleBackground = (saddleNumber) => {
     switch (Math.round(saddleNumber)) {
@@ -100,7 +100,7 @@ const handleSaddleForeground = (saddleNumber) => {
             return 'white !important';
     }
 };
-const SaddleClothTd = styled('td').withConfig({
+const SaddleClothTd = styledComponents.styled('td').withConfig({
     shouldForwardProp: (prop) => !['bordersize', 'programnumber'].includes(prop),
 }) `
   text-align: center;
