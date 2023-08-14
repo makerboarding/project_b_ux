@@ -1,7 +1,7 @@
 {
   "name": "@makerboarding/project_b_ux",
   "description": "project_b shared UX components",
-  "version": "0.35.11",
+  "version": "0.35.12",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "typings": "dist/index.d.ts",
@@ -24,7 +24,6 @@
     "@testing-library/user-event": "^14.4.3",
     "@types/jest": "^29.5.3",
     "@types/node": "^20.4.2",
-    "babel-plugin-styled-components": "^2.1.4",
     "npm-run-all": "^4.1.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
