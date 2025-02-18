@@ -113,6 +113,8 @@ const SaddleClothTd = styledComponents.styled('td').withConfig({
   // font-size: 10pt;
   width: ${(p) => (p.width ? p.width : 10)};
   border-left: 1px solid #dee2e6;
+  border-top: 1px solid #dee2e6 !important;
+  border-bottom: 1px solid #dee2e6 !important;
   border-right: 1px solid #dee2e6;
 `;
 
