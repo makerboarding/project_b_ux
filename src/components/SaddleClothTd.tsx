@@ -53,7 +53,7 @@ const handleSaddleBackground = (saddleNumber: number) => {
     case 21:
       return '#b19cd9 !important';
     default:
-      console.log (`default saddle background ${saddleNumber}`)
+      console.log(`default saddle background ${saddleNumber}`)
       return 'black !important';
   }
 };
@@ -103,7 +103,7 @@ const handleSaddleForeground = (saddleNumber: number) => {
     case 21:
       return 'navy !important';
     default:
-      console.log (`default saddle foreground ${saddleNumber}`)
+      console.log(`default saddle foreground ${saddleNumber}`)
       return 'white !important';
   }
 };
@@ -111,7 +111,7 @@ const handleSaddleForeground = (saddleNumber: number) => {
 export const SaddleClothTd = styled('td').withConfig({
   shouldForwardProp: (prop) =>
     !['bordersize', 'programnumber'].includes(prop),
-})<SaddleClothTdProps>`
+}) <SaddleClothTdProps>`
   text-align: center;
   font-weight: bold;
   max-height: 40px;
@@ -122,5 +122,6 @@ export const SaddleClothTd = styled('td').withConfig({
   // font-size: 10pt;
   width: ${(p: SaddleClothTdProps) => (p.width ? p.width : 10)};
   border-left: 1px solid #dee2e6;
+  border-top: 1px solid #dee2e6;
   border-right: 1px solid #dee2e6;
 `;
